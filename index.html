@@ -13,7 +13,6 @@
         const APP_NAME = "Futoshiki Inequality Puzzles";
         const DEVELOPER_NAME = "Tarpara Krish";
         const CONTACT_EMAIL = "neuraldevarc@gmail.com";
-        const WEBSITE_URL = "https://example.com"; // Keep as empty string "" if none
         // ====================================================
     </script>
 
@@ -297,19 +296,6 @@
                 if (el.tagName === 'A') el.href = "mailto:" + CONTACT_EMAIL;
             });
             
-            document.querySelectorAll('.val-web').forEach(el => {
-                if (WEBSITE_URL && WEBSITE_URL.trim() !== "") {
-                    el.innerText = WEBSITE_URL;
-                    let cleanUrl = WEBSITE_URL.trim();
-                    if (!/^https?:\/\//i.test(cleanUrl)) {
-                        cleanUrl = "https://" + cleanUrl;
-                    }
-                    if (el.tagName === 'A') el.href = cleanUrl;
-                } else {
-                    const webItem = document.getElementById('web-container');
-                    if (webItem) webItem.style.display = 'none';
-                }
-            });
         });
     </script>
 </body>
