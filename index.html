@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    
+    <!-- Centralized configuration block - EDIT ONLY THESE 4 LINES! -->
+    <script>
+        // ====================================================
+        // CONFIGURATION: CHANGE THESE 4 VALUES ONLY!
+        // ====================================================
+        const APP_NAME = "Futoshiki Inequality Puzzles";
+        const DEVELOPER_NAME = "Tarpara Krish";
+        const CONTACT_EMAIL = "neuraldevarc@gmail.com";
+        const WEBSITE_URL = "https://example.com"; // Keep as empty string "" if none
+        // ====================================================
+    </script>
+
+    <!-- Clean, professional typography and style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --text-color: #1e293b;
+            --text-light: #64748b;
+            --card-bg: #ffffff;
+            --accent-color: #4f46e5;
+            --border-color: #e2e8f0;
+            --max-width: 800px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1rem;
+        }
+
+        .subtitle {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0f172a;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #334155;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        ul {
+            margin-bottom: 1.25rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background-color: #f1f5f9;
+            border-left: 4px solid var(--accent-color);
+            padding: 1rem;
+            border-radius: 0 6px 6px 0;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+            color: #334155;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #f1f5f9;
+            font-weight: 600;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: var(--text-light);
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="page-title">Privacy Policy</h1>
+        <p class="subtitle">For the <span class="val-app-name"></span> Mobile Application</p>
+
+        <!-- Intro -->
+        <section>
+            <p>This privacy policy governs your use of the software application <strong class="val-app-name"></strong> ("Application") for mobile devices. The Application is a logic puzzle game designed for users of all ages.</p>
+            <p>This Privacy Policy is maintained by <strong class="val-dev-name"></strong> ("we", "us", or "our"). We are committed to protecting and respecting your privacy.</p>
+            <div class="highlight-box">
+                <p><strong>By using the Application, you consent to the collection and use of information in accordance with this policy.</strong></p>
+            </div>
+        </section>
+
+        <!-- Data Minimization -->
+        <section>
+            <h2>1. Information We Collect</h2>
+            <p>We believe in data minimization. The Application does not request or collect any Personally Identifiable Information (PII) directly from you. We do not collect your name, email address, physical location, contacts, or calendar information.</p>
+            
+            <h3>A. On-Device Local Storage</h3>
+            <p>To provide a smooth gameplay experience, the Application stores game progress indicators locally on your device's internal storage. This includes:</p>
+            <ul>
+                <li><strong>Game State Data:</strong> Saved board configurations, timers, remaining lives, and level completions.</li>
+                <li><strong>Preferences:</strong> Theme selections (light/dark mode) and language choices.</li>
+            </ul>
+            <p>This data remains strictly on your device and is never transmitted to us or any remote server. It is cleared if you clear the app cache or uninstall the app.</p>
+
+            <h3>B. Automatically Collected Data (Third-Party SDKs)</h3>
+            <p>To monetize the Application and provide puzzle verification features, we use third-party service providers. These providers collect information automatically to serve advertisements and verify user consents. <strong>This collected data includes:</strong></p>
+            <ul>
+                <li><strong>IP Address:</strong> Used to estimate your approximate location (country/city level) to serve local ads.</li>
+                <li><strong>Device & OS Info:</strong> Device manufacturer, model, OS version, language, screen size, and mobile network operator.</li>
+                <li><strong>Resettable Device Advertising Identifiers:</strong> Such as the Google Advertising ID (AAID) on Android, used to limit ad repetition and provide relevant interest-based advertising.</li>
+                <li><strong>Ad Interactions:</strong> Information on impressions, video watches (to unlock lives/hints), and click analytics.</li>
+            </ul>
+        </section>
+
+        <!-- Third Party Services -->
+        <section>
+            <h2>2. Third-Party Services</h2>
+            <p>The Application works with third-party service providers whose privacy policies govern their usage of your data. We encourage you to review their policies:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Provider</th>
+                        <th>Purpose</th>
+                        <th>Privacy Policy Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Google Play Services</td>
+                        <td>Core mobile OS integrations, app stability, and updates.</td>
+                        <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td>Google AdMob</td>
+                        <td>Serving mobile banner, interstitial, and rewarded ads.</td>
+                        <td>
+                            <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Ads Policy</a><br>
+                            <a href="https://www.google.com/policies/privacy/partners/" target="_blank" rel="noopener noreferrer">Partner Data Usage</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Google User Messaging Platform (UMP)</td>
+                        <td>Managing user ad consent (GDPR and CCPA compliant).</td>
+                        <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Rights and Choices -->
+        <section>
+            <h2>3. Your Consent and Privacy Choices</h2>
+            <p>You can manage your data choices in the following ways:</p>
+            <ul>
+                <li><strong>In-App Privacy Settings:</strong> You can access the Google UMP consent banner at any time via the Settings menu inside the Application to grant or revoke ad personalization consent.</li>
+                <li><strong>Android Settings:</strong> You can reset or delete your Advertising ID by going to <strong>Settings</strong> &gt; <strong>Google</strong> &gt; <strong>Ads</strong> on your Android device.</li>
+            </ul>
+        </section>
+
+        <!-- GDPR & CCPA Compliance -->
+        <section>
+            <h2>4. GDPR and CCPA Compliance</h2>
+            <p>We comply with the General Data Protection Regulation (GDPR) for users in the European Economic Area (EEA) and the California Consumer Privacy Act (CCPA) for California residents. Consent is gathered via UMP dialogs. If you choose to withdraw consent, the SDK will only show non-personalized ads, and you can object to further tracking by managing your device-level advertising permissions.</p>
+        </section>
+
+        <!-- COPPA (Children's Privacy) -->
+        <section>
+            <h2>5. Children's Privacy</h2>
+            <p>The Application is a general audience puzzle game. We do not knowingly collect personal information from children under the age of 13. If you are a parent or guardian and believe that your child has provided personal information to a third-party ad network via this Application, please contact us at the email below, and we will take immediate corrective action.</p>
+        </section>
+
+        <!-- Data Retention and Security -->
+        <section>
+            <h2>6. Data Retention and Security</h2>
+            <p>Because the developer does not collect or transmit user data to external servers, we hold no user data to retain or delete. Third-party ad networks store data according to their own retention periods (typically up to a few months for ad routing and fraud prevention). We utilize standard HTTPS protocols for all internal app communication with third-party SDKs to prevent data transit interception.</p>
+        </section>
+
+        <!-- Policy Changes -->
+        <section>
+            <h2>7. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the title accordingly. Changes are effective immediately upon posting.</p>
+        </section>
+
+        <!-- Contact Us -->
+        <section>
+            <h2>8. Contact Us</h2>
+            <p>If you have any questions or concerns regarding this Privacy Policy, please contact us:</p>
+            <ul>
+                <li><strong>Developer Name:</strong> <span class="val-dev-name"></span></li>
+                <li><strong>Contact Email:</strong> <a class="val-email" href=""></a></li>
+                <li id="web-container"><strong>Website:</strong> <a class="val-web" href="" target="_blank" rel="noopener noreferrer"></a></li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; <span id="current-year"></span> <span class="val-dev-name"></span>. All rights reserved.</p>
+            <p>Compliant with Google Play Store Developer Policies.</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript to populate configuration variables dynamically on load -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            // Populate document title and placeholders
+            document.title = "Privacy Policy - " + APP_NAME;
+            
+            // Set year
+            document.getElementById('current-year').innerText = new Date().getFullYear();
+
+            // Populate all instances of variables
+            document.querySelectorAll('.val-app-name').forEach(el => el.innerText = APP_NAME);
+            document.querySelectorAll('.val-dev-name').forEach(el => el.innerText = DEVELOPER_NAME);
+            
+            document.querySelectorAll('.val-email').forEach(el => {
+                el.innerText = CONTACT_EMAIL;
+                if (el.tagName === 'A') el.href = "mailto:" + CONTACT_EMAIL;
+            });
+            
+            document.querySelectorAll('.val-web').forEach(el => {
+                if (WEBSITE_URL && WEBSITE_URL.trim() !== "") {
+                    el.innerText = WEBSITE_URL;
+                    let cleanUrl = WEBSITE_URL.trim();
+                    if (!/^https?:\/\//i.test(cleanUrl)) {
+                        cleanUrl = "https://" + cleanUrl;
+                    }
+                    if (el.tagName === 'A') el.href = cleanUrl;
+                } else {
+                    const webItem = document.getElementById('web-container');
+                    if (webItem) webItem.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
